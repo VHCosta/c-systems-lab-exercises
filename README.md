@@ -1,43 +1,40 @@
-# C Systems Lab — Exercises
+# C Systems Lab — Exercise Starters
 
-Starter files for the exercises in the [C Systems Lab Companion PDF](https://csystemslab.com).
+Starter exercises for C Systems Lab.
 
-Each directory maps to a chapter in the companion:
+Each directory contains a complete exercise with:
 
-| Directory | Chapter |
-|-----------|---------|
-| `ch01/` | Setup and the Compilation Model |
-| `ch02/` | Types, Operators, and Control Flow |
-| `ch03/` | Pointers and the Memory Model |
-| `ch04/` | Dynamic Memory |
-| `ch05/` | Structs, Unions, and Bit Fields |
-| `ch06/` | The C Preprocessor |
-| `ch07/` | File I/O and System Calls |
-| `ch08/` | Processes and Signals |
-| `ch09/` | Sockets and Networking |
-| `ch10/` | Concurrency |
-| `ch11/` | Going Below C |
+- **`prompt.md`** — the exercise statement and requirements
+- **Starter files** — stubs with `TODO` comments where you write your code
 
-## Getting started
+Work through the exercises alongside the course, or use them independently.
 
-```bash
-git clone https://github.com/VHCosta/c-systems-lab-exercises
-cd c-systems-lab-exercises
+---
+
+## Structure
+
+```
+chNN/exN_M/
+  prompt.md     exercise statement
+  meta.json     metadata (difficulty, tags, compile flags)
+  *.c / *.h     starter code with TODO stubs
 ```
 
-Each exercise directory contains one or more `.c` files with `/* TODO: implement */`
-markers where your code goes. The compile command is in the header comment of each file.
+## Building
 
-Example:
+Each exercise lists its compile command in `prompt.md`. Most follow this pattern:
 
-```bash
-cd ch04/ex4_1
-gcc -Wall -Wextra -Werror -std=c11 -g -o ex4_1 ex4_1.c && ./ex4_1
+```sh
+gcc -std=c11 -Wall -Wextra -Werror -o exN_M exN_M.c && ./exN_M
 ```
 
-## Notes
+## Want the full code pack?
 
-- All exercises compile with `-std=c11 -Wall -Wextra -Werror`. Use the exact command
-  in the file header.
-- The companion PDF describes what each exercise asks you to implement.
-- Full annotated solutions are included in the PDF + Solutions edition.
+The paid C Systems Lab code pack includes full worked solutions, annotated
+explanations, and extended projects for every exercise.
+
+**Available now:** [vhcosta.gumroad.com/l/c-systems-lab](https://vhcosta.gumroad.com/l/c-systems-lab)
+
+---
+
+Version: 2026-04-11 | 43 exercises across 11 chapters
