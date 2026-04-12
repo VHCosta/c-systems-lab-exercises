@@ -37,4 +37,4 @@ explanations, and extended projects for every exercise.
 
 ---
 
-Version: 2026-04-11 | 43 exercises across 11 chapters
+Version: 2026-04-12 | 47 exercises across 12 chapters
