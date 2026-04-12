@@ -1,0 +1,6 @@
+{
+  "chapter": 12,
+  "exercise": 2,
+  "difficulty": "design",
+  "tags": ["emulation", "memory-map", "pointers", "dispatch", "game-boy"]
+}

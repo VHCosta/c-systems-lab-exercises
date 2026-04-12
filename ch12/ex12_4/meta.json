@@ -1,0 +1,6 @@
+{
+  "chapter": 12,
+  "exercise": 4,
+  "difficulty": "integration",
+  "tags": ["emulation", "file-io", "binary-parsing", "checksum", "game-boy"]
+}
