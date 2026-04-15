@@ -1,0 +1,9 @@
+{
+  "chapter":    1,
+  "exercise":   1,
+  "title":      "Trace the four stages by hand",
+  "difficulty": "beginner",
+  "tags":       ["build", "preprocessor", "linker", "translation-units"],
+  "cflags":     "-std=c11 -Wall -Wextra -Werror -O1",
+  "extra_libs": []
+}

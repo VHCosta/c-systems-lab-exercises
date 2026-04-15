@@ -1,0 +1,9 @@
+{
+  "chapter":    1,
+  "exercise":   4,
+  "title":      "Static vs dynamic link size",
+  "difficulty": "beginner",
+  "tags":       ["linking", "static-linking", "dynamic-linking", "tooling"],
+  "cflags":     "-std=c11 -Wall -Wextra -Werror -O1",
+  "extra_libs": ["-lm"]
+}

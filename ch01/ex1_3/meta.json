@@ -1,0 +1,9 @@
+{
+  "chapter":    1,
+  "exercise":   3,
+  "title":      "Build flags audit",
+  "difficulty": "beginner",
+  "tags":       ["compiler-flags", "warnings", "optimization", "tooling"],
+  "cflags":     "-std=c11 -Wall -Wextra -Werror -O1",
+  "extra_libs": []
+}

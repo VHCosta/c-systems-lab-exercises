@@ -2,10 +2,15 @@
 
 Starter exercises for C Systems Lab.
 
-Each directory contains a complete exercise with:
+Each exercise directory contains starter material for one exercise.
+Many refreshed directories include:
 
 - **`prompt.md`** — the exercise statement and requirements
+- **`meta.json`** — metadata such as difficulty and compiler flags
 - **Starter files** — stubs with `TODO` comments where you write your code
+
+Some older directories still expose source files only while the repo is being
+refreshed to the same layout.
 
 Work through the exercises alongside the course, or use them independently.
 
@@ -13,11 +18,11 @@ Work through the exercises alongside the course, or use them independently.
 
 ## Structure
 
-```
+```text
 chNN/exN_M/
-  prompt.md     exercise statement
-  meta.json     metadata (difficulty, tags, compile flags)
-  *.c / *.h     starter code with TODO stubs
+  prompt.md     exercise statement            (refreshed exercises)
+  meta.json     metadata (difficulty, flags)  (refreshed exercises)
+  *.c / *.h     starter code or scaffolding
 ```
 
 ## Building
@@ -37,4 +42,4 @@ explanations, and extended projects for every exercise.
 
 ---
 
-Version: 2026-04-12 | 47 exercises across 12 chapters
+Version: 2026-04-15 | 48 exercises across 12 chapters

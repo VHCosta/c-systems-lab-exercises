@@ -1,0 +1,9 @@
+{
+  "chapter":    1,
+  "exercise":   2,
+  "title":      "Decode a linker error",
+  "difficulty": "beginner",
+  "tags":       ["linker", "math", "definitions", "libraries"],
+  "cflags":     "-std=c11 -Wall -Wextra -Werror -O1",
+  "extra_libs": ["-lm"]
+}
